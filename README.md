@@ -79,7 +79,7 @@ A implementação do serviço de recomendação oferece uma maneira eficaz de pe
 
 
 ### 🧪 Testes Implementados
-## 1. ProdutoRepositoryTests
+# 1. ProdutoRepositoryTests
 A classe ProdutoRepositoryTests é responsável por testar as funcionalidades do repositório de produtos (ProdutoRepository). Ela utiliza um banco de dados em memória para simular a interação com o banco de dados real, garantindo que os testes sejam rápidos e não dependam do estado do banco de dados externo.
 
 # Métodos de Teste
@@ -93,7 +93,7 @@ Atualizar_Produto_Deve_Modificar_Produto_Quando_Produto_Existe: Este teste verif
 
 Apagar_Produto_Deve_Remover_Produto_Quando_Produto_Existe: Este teste verifica se um produto pode ser removido do banco de dados. Um produto é adicionado, e o método Apagar é chamado. O teste verifica se o produto foi realmente removido ao tentar buscá-lo novamente.
 
-## 2. UserRepositoryTests
+# 2. UserRepositoryTests
 A classe UserRepositoryTests é responsável por testar as funcionalidades do repositório de usuários (UserRepository). Assim como na classe de testes de produtos, um banco de dados em memória é utilizado.
 
 # Métodos de Teste
