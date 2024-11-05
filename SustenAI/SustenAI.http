@@ -1,0 +1,6 @@
+@SustenAI_HostAddress = http://localhost:5127
+
+GET {{SustenAI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
